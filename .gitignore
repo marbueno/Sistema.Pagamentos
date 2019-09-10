@@ -1,0 +1,6 @@
+/packages
+/.vs
+/src/Sistema.Pagamentos/bin
+/src/Sistema.Pagamentos/obj
+/test/Sistema.Pagamentos.Test/bin
+/test/Sistema.Pagamentos.Test/obj

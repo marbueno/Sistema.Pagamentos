@@ -7,12 +7,12 @@ using System.Collections.Generic;
 
 namespace Sistema.Pagamentos
 {
-    public class SoftwareExpressServiceTest
+    public class IUGUTest
     {
         private FaturaRequest faturaRequest;
 
         IntegracaoPagamentoService iuguService { get; }
-        public SoftwareExpressServiceTest()
+        public IUGUTest()
         {
             iuguService = new IntegracaoPagamentoService(false, Enum.GatewayPagamento.IUGU);
         }

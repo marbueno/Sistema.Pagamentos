@@ -8,6 +8,9 @@ namespace Sistema.Pagamentos.Model.Response
         [JsonProperty(PropertyName = "id")]
         public string ID { get; set; }
 
+        [JsonProperty(PropertyName = "secure_url")]
+        public string LinkFatura { get; set; }
+
         [JsonProperty(PropertyName = "bank_slip")]
         public Boleto Boleto { get; set; }
     }

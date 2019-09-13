@@ -23,15 +23,10 @@ namespace Sistema.Pagamentos
             List<Item> listItens = new List<Item>();
             listItens.Add(new Item()
             {
-                Descricao = "PRODUTO 0001",
+                Descricao = "PRODUTO 0002",
                 Qtde = 1,
                 Valor = 120 //Equivalente a R$ 1,20
             });
-
-            Pagador pagador = new Pagador()
-            {
-
-            };
 
             faturaRequest = new FaturaRequest()
             {
@@ -57,7 +52,7 @@ namespace Sistema.Pagamentos
                     }
 
                 },
-                CodigoPedido = "0001"
+                CodigoPedido = "0003"
             };
 
             FaturaResponse faturaResponse = iuguService.GerarBoleto(faturaRequest);
